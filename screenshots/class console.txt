@@ -1,0 +1,82 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> node server.js
+Server Running at Port: 3000
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> lite-server
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+** browser-sync config **
+{
+  injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server: {
+    baseDir: './',
+    middleware: [ [Function (anonymous)], [Function (anonymous)] ]
+  }
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> nodemon
+  Usage: nodemon [nodemon options] [script.js] [args]
+
+
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> nodemon server.js
+[nodemon] 2.0.16
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> nodemon server.js
+[nodemon] 2.0.16
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+ERROR: EISDIR: illegal operation on a directory, read
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+full file name: J:\Documents\COLLEGE\3rd SEMESTER\lesson 2/
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+Server Running at Port: 3000
+full file name: J:\Documents\COLLEGE\3rd SEMESTER\lesson 2/
+yarn init v1.22.18
+question name (lesson 2): comp229-m2022-lesson2
+question version (1.0.0): 0.0.1
+question description: Demo project for comp 229 in the summer 2022
+question entry point (index.js): server.js
+question repository url:
+question author: jule brinez
+question license (MIT):
+question private:
+success Saved package.json
+Done in 69.93s.
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> yarn add mime types
+yarn add v1.22.18
+info No lockfile found.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+warning Your current version of Yarn is out of date. The latest version is "1.22.19", while you're on "1.22.18".
+info To upgrade, run the following command:
+$ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+success Saved 2 new dependencies.
+info Direct dependencies
+├─ mime@3.0.0
+└─ types@0.1.1
+info All dependencies
+├─ mime@3.0.0
+└─ types@0.1.1
+Done in 0.89s.
+PS J:\Documents\COLLEGE\3rd SEMESTER\lesson 2> 
